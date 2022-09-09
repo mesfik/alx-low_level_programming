@@ -1,6 +1,11 @@
 #include <studio.h>
+#include <string.h>
 int main()
-{
-  printf ("Programming is like building a multilingual puzzle.\n");
+{ 
+	
+  char string[90];
+
+  strcpy(str, "Programming is like building a multilingual puzzle.\n");
+  puts(string);
   return 0;
 }

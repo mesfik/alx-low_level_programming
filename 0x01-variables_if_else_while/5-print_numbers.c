@@ -8,13 +8,14 @@ int main(void)
 {
 	int i;
 
-	i = 0;
+	i = 48;
 
-	while (i < 10)
+	while (i < 58)
 	{
-		printf("%d", i);
+		putchar(i);
 
 		i++;
 	}
+	putchar(10);
 	return (0);
 }

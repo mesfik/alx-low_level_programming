@@ -1,7 +1,7 @@
 #include <stdio.h>
-
 /**
  * main - causes an infinite loop
+ *
  * Return: 0
  */
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 	 * {
 	 * Infinite loop - increamental  of variable needed
 	 * putchar(i);
-	 *  }
+	 }
 	 */
 	printf("Infinite loop avoided! \\o/\n");
 	

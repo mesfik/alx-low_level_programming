@@ -8,7 +8,7 @@
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
+int largest_number(int a = 972, int b = -98, int c = 0)
 {
 	int largest;
 

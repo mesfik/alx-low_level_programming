@@ -1,12 +1,14 @@
 #include "main.h"
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_alphabet - check description
+ * Discription: It prints the alphabet in lowercase followed by a new line
+ * Return: Nothing
  */
 void print_alphabet(void)
 {
 	int i;
+
 	i = 97;
 
 	for (i = 97; i <= 122; i++)

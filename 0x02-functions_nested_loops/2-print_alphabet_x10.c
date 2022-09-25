@@ -1,12 +1,14 @@
 #include "main.h"
+
 /**
- * print alphabet - check description
- * Description: It prints the alphabet in lowercase ten times followed by new line
+ * print_alphabet_x10 - check description
+ * Discription: It prints the alphabet in lowercase followed by a new line
  * Return: Nothing
  */
 void print_alphabet_x10(void)
 {
 	int i;
+	int j;
 
 	i = 97;
 	j = 0;

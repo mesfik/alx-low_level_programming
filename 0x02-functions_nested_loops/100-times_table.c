@@ -13,9 +13,8 @@ int countd(int n)
 	do {
 		n /= 10;
 		c++;
-	}
-	while (n > 0)
-		return (c);
+	} while (n > 0);
+	return (c);
 }
 /**
  * putspace - _putchar(' ')

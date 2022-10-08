@@ -27,11 +27,12 @@ int countd(int n)
 void putspace(int n)
 {
 	int i = 0;
+
 	for (; i < n; i++)
 		_putchar(' ');
 }
 /**
- * print_times_tablen - print times table of @n starting from 0
+ * print_times_table - print times table of @n starting from 0
  *
  * @n: an intiger
  *
@@ -40,6 +41,7 @@ void putspace(int n)
 void print_times_table(int n)
 {
 	int r, c, m;
+
 	if (n > 15 || n < 0)
 		return;
 	for (r = 0; r <= n; r++)
@@ -53,7 +55,7 @@ void print_times_table(int n)
 				continue;
 			}
 			_putchar(',');
-			switch(countd(m))
+			switch (countd(m))
 			{
 				case 1:
 					putspace(3);

@@ -13,11 +13,11 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 		return (0);
-	for (length = 0; str[length]; length++)
+	for (length = 1; str[length]; length++)
 	{
-		duplicate = malloc(sizeof(char) * (length + 1));
+		duplicate = malloc(sizeof(char) * length);
 		if (duplicate == NULL)
-			return (0);
+			return (NULL);
 	}
 	while ((duplicate[i] = str[i]) != '\0')
 		i++;

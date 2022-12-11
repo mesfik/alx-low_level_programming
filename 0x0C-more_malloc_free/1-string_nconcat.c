@@ -20,7 +20,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		length_2++;
 	if (n > length_1)
 		n = length_2;
-	ptr = (char* )malloc(length_1 + n + 1);
+	ptr = (char *)malloc(length_1 + n + 1);
 	if (ptr == NULL)
 		return (NULL);
 	for (i = 0; i < length_1; i++)

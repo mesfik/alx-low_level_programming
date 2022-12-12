@@ -1,4 +1,5 @@
 #include "calc.h"
+#include <stdlib.h>
 
 /**
  * add - function to add two values
@@ -13,26 +14,26 @@ int add(int a, int b)
 	return (a + b);
 }
 /**
- * mult - function to find the product of two values
+ * mul - function to find the product of two values
  *
  * @a: the first number to be multiplied
  * @b: the seccond number to be multiplied
  *
  * Return: product of two nums
  */
-int mult(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
 /**
- * subt - function to find the subtraction of two numbers
+ * sub - function to find the subtraction of two numbers
  *
  * @a: number subtracted from
  * @b: number to be subtracted
  *
  * Return: subtracted value
  */
-int subt(int a, int b)
+int sub(int a, int b)
 {
 	return (a - b);
 }
@@ -54,14 +55,14 @@ int divs(int a, int b)
 	return (a / b);
 }
 /**
- * modl - modules of a number
+ * mod - modules of a number
  *
  * @a: devisible from
  * @b: to be devided
  *
  * Return: modules of a number
  */
-int modl(int a, int b)
+int mod(int a, int b)
 {
 	if (b == 0)
 	{
